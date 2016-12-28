@@ -4,7 +4,7 @@
 #include <limits>
 using namespace std;
 
-template <typename T, typename enable_if<is_integral<T>::type>::type...>
+template <typename T, typename enable_if<is_integral<T>::value>::type...>
 T ClosestIntSameBitCount(T value)
 {
 	int digits = numeric_limits<T>::digits;
@@ -12,7 +12,9 @@ T ClosestIntSameBitCount(T value)
 	{
 		if (((value >> i) & 0x1) != ((value >> (i + 1)) & 0x1))
 		{
-			x ^= ()
+			value ^= (T{ 1 } << i) | (T{ 1 } << (i + 1));
+			return value;
 		}
 	}
+	return value;
 }

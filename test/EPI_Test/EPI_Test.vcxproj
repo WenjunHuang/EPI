@@ -158,6 +158,7 @@
     <ClCompile Include="problem_5_1_test.cpp" />
     <ClCompile Include="problem_5_2_test.cpp" />
     <ClCompile Include="problem_5_3_test.cpp" />
+    <ClCompile Include="problem_5_4_test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
