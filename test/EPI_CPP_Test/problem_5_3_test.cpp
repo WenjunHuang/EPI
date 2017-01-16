@@ -1,6 +1,6 @@
 ﻿#include <cstdint>
 #include <gtest/gtest.h>
-#include <EPI/problem_5_3.h>
+#include "problem_5_3.h"
 using namespace std;
 TEST(ReverseBitsUsingSwapBitsTest, ReverseBitsUsingSwapBits)
 {

@@ -2,9 +2,9 @@
 #pragma once
 #include <cstdint>
 #include <numeric>
-#include <EPI/problem_5_2.h>
 #include <limits>
 #include <type_traits>
+#include "problem_5_2.h"
 using namespace std;
 
 extern uint64_t precomputed_reverse[];

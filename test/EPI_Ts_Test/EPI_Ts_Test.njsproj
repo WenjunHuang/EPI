@@ -3,16 +3,16 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
-    <Name>EPI_Ts</Name>
-    <RootNamespace>EPI_Ts</RootNamespace>
+    <Name>EPI_Ts_Test</Name>
+    <RootNamespace>EPI_Ts_Test</RootNamespace>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>61b9335e-564f-4228-93a8-0b36c25f68fa</ProjectGuid>
+    <ProjectGuid>cd87421d-d567-4b54-b546-6a1c6baa967b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>src\problem_5_8.ts</StartupFile>
+    <StartupFile>app.ts</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -33,16 +33,12 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="src\problem_5_8.ts" />
+    <TypeScriptCompile Include="app.ts" />
     <Content Include="package.json" />
+    <Content Include="README.md" />
     <TypeScriptCompile Include="Scripts\typings\node\node.d.ts" />
-    <TypeScriptCompile Include="src\problem_5_9.ts" />
-    <TypeScriptCompile Include="test\problem_5_8.spec.ts" />
-    <TypeScriptCompile Include="test\problem_5_9.spec.ts" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="test\" />
-    <Folder Include="src\" />
     <Folder Include="Scripts\" />
     <Folder Include="Scripts\typings\" />
     <Folder Include="Scripts\typings\node\" />

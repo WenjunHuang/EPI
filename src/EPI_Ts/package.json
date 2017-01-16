@@ -5,5 +5,16 @@
   "main": "app.js",
   "author": {
     "name": "rick"
-  }
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.40",
+    "jasmine": "^2.5.3",
+    "karma": "^1.4.0"
+  },
+  "dependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "scripts": {
+    "test": "jasmine" 
+  } 
 }

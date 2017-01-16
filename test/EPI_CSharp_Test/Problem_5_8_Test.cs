@@ -8,7 +8,7 @@ using Xunit;
 
 namespace EPI_CSharp_Test
 {
-    public class ReverseDigitsTest
+    public class Problem_5_8_Test
     {
         [Fact]
         public void ReverseDigits_Success()

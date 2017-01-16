@@ -56,7 +56,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ReverseDigitsTest.cs" />
+    <Compile Include="Problem_5_1_Test.cs" />
+    <Compile Include="Problem_5_8_Test.cs" />
+    <Compile Include="Problem_5_9_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

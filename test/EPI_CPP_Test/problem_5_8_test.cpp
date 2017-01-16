@@ -1,5 +1,5 @@
 ﻿#include <gtest/gtest.h>
-#include <EPI/problem_5_8.h>
+#include "problem_5_8.h"
 
 TEST(ReverseDigitsTest, ReverseDigits)
 {

@@ -1,0 +1,9 @@
+{
+  "name": "epi_ts_test",
+  "version": "0.0.0",
+  "description": "EPI_Ts_Test",
+  "main": "app.js",
+  "author": {
+    "name": "rick"
+  }
+}

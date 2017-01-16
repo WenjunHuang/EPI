@@ -6,7 +6,6 @@
 
 #pragma once
 #include <cstdint>
-#include <atomic>
 #include <type_traits>
 
 template <typename T, typename... Ts, typename = typename std::enable_if<std::is_unsigned<T>::value, void>::type>

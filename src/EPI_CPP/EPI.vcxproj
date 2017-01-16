@@ -30,6 +30,7 @@
     <ClInclude Include="problem_5_4.h" />
     <ClInclude Include="problem_5_5.h" />
     <ClInclude Include="problem_5_8.h" />
+    <ClInclude Include="problem_5_9.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E77764CE-CEF3-40A4-A35E-6562A81511B8}</ProjectGuid>

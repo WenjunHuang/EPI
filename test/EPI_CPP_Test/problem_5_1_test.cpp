@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include <EPI/problem_5_1.h>
+#include "problem_5_1.h"
 
 TEST(ParityTest, Parity)
 {

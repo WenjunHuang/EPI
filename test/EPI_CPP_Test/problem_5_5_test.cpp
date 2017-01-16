@@ -1,5 +1,5 @@
 ﻿#include <gtest/gtest.h>
-#include <EPI/problem_5_5.h>
+#include "problem_5_5.h"
 
 TEST(MultiplyAndAddTest, MultiplyAndAdd)
 {
