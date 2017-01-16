@@ -79,11 +79,17 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/src/EPI_Kotlin">
-      <sourceFolder url="file://$MODULE_DIR$/src/EPI_Kotlin" isTestSource="false" />
+    <content url="file://$MODULE_DIR$/src/EPI/EPI_Kotlin">
+      <sourceFolder url="file://$MODULE_DIR$/src/EPI/EPI_Kotlin" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/test/EPI_Kotlin_Test">
-      <sourceFolder url="file://$MODULE_DIR$/test/EPI_Kotlin_Test" isTestSource="true" />
+    <content url="file://$MODULE_DIR$/test/EPI/EPI_Kotlin_Test">
+      <sourceFolder url="file://$MODULE_DIR$/test/EPI/EPI_Kotlin_Test" isTestSource="true" />
+    </content>
+        <content url="file://$MODULE_DIR$/src/DAST/DAST_Kotlin">
+      <sourceFolder url="file://$MODULE_DIR$/src/DAST/DAST_Kotlin" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/test/DAST/DAST_Kotlin_Test">
+      <sourceFolder url="file://$MODULE_DIR$/test/DAST/DAST_Kotlin_Test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

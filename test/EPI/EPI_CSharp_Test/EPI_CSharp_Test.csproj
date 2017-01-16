@@ -65,7 +65,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\EPI_CSharp\EPI_CSharp.csproj">
+    <ProjectReference Include="..\..\..\src\EPI\EPI_CSharp\EPI_CSharp.csproj">
       <Project>{e7ae2b5d-017b-46b5-8746-8168dc103cbd}</Project>
       <Name>EPI_CSharp</Name>
     </ProjectReference>
