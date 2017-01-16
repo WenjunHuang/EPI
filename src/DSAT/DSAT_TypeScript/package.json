@@ -5,11 +5,12 @@
   "author": {
     "name": "rick"
   },
-  "dependencies": {
-    "tsunit.external": "^2.0.10"
-  },
   "devDependencies": {
-    "@types/node": "0.0.2",
-    "typescript": "^2.1.4"
-  }
+    "@types/jasmine": "^2.5.40",
+    "jasmine": "^2.5.3"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "dependencies": {}
 }

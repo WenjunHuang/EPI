@@ -38,7 +38,6 @@
     <TypeScriptCompile Include="src\trees\BinaryTreeNode.ts" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <TypeScriptCompile Include="src\common\arrayextension.ts" />
     <TypeScriptCompile Include="src\trees\problem_1.ts" />
     <TypeScriptCompile Include="src\trees\problem_15.ts" />
     <TypeScriptCompile Include="src\trees\problem_2.ts" />
@@ -50,11 +49,14 @@
     <TypeScriptCompile Include="src\trees\problem_8.ts" />
     <TypeScriptCompile Include="src\trees\problem_9.ts" />
     <TypeScriptCompile Include="test\trees\BinaryTreeAlgorithmTest.ts" />
-    <TypeScriptCompile Include="test\trees\problem_1_test.ts" />
+    <TypeScriptCompile Include="test\trees\common_data.ts" />
+    <TypeScriptCompile Include="test\trees\problem_1.spec.ts" />
     <TypeScriptCompile Include="test\TreeTraversalTest.ts" />
     <TypeScriptCompile Include="test\TestSuits.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="spec\" />
+    <Folder Include="spec\support\" />
     <Folder Include="src\common\" />
     <Folder Include="src\trees\" />
     <Folder Include="test\" />

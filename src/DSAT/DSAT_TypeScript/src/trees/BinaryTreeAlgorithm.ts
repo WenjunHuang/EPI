@@ -14,11 +14,6 @@ export function FindMaxUsingLevelOrder<T>(root: BinaryTreeNode<T>, comparator: {
     return max;
 }
 
-
-
-
-
-
 export function DeepestNode<T>(root: BinaryTreeNode<T>) {
     if (!root)
         return null;

@@ -298,3 +298,6 @@ hs_err_pid*
 *.exe
 *.out
 *.app
+
+*.js
+*.js.map

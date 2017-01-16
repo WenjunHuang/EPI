@@ -1,10 +1,10 @@
 {
-  "name": "epi_ts",
+  "name": "dast_type-script_test",
   "version": "0.0.0",
-  "description": "EPI_Ts",
+  "description": "DAST_TypeScript_Test",
   "main": "app.js",
   "author": {
-    "name": "rick"
+    "name": "Wenjun"
   },
   "devDependencies": {
     "@types/jasmine": "^2.5.40",
